@@ -1,0 +1,192 @@
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#000;
+
+    color:white;
+
+}
+
+@font-face {
+    font-family: "fontAI";
+    src: url("TheYearofHandicrafts-Bold.otf");
+}
+
+html[lang="ar"] body{
+
+font-family: 'fontAI', sans-serif;
+direction: rtl;
+
+text-align: right;
+
+}
+
+
+/* NAVBAR GLASS EFFECT */
+
+.glass-nav{
+
+    background:rgba(0,0,0,0.5);
+
+    backdrop-filter:blur(10px);
+
+}
+
+
+/* HERO */
+
+.hero{
+
+    height:100vh;
+
+    background:
+
+    linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+
+    url("Vector\ Smart\ Object\ \(Double\ Click\ to\ Edit\).png");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+
+/* SECTIONS */
+
+.section-style{
+
+    padding:120px 0;
+
+    background:#fff;
+
+    color:#000;
+
+}
+
+
+.section-dark{
+
+    padding:120px 0;
+
+    background:#111;
+
+    color:#fff;
+
+}
+
+
+/* FOOTER */
+
+.footer{
+
+    padding:40px;
+
+    background:#000;
+
+}
+
+
+/* ANIMATION */
+
+.fade-in{
+
+    animation:fadeIn 2s;
+
+}
+
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+/* IMAGE EFFECT */
+
+img{
+
+    transition:transform 0.4s;
+
+}
+
+
+img:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* Language buttons */
+
+.lang-switch a{
+    
+    color: #fff;
+
+    text-decoration: none;
+
+    display:flex;
+
+    gap:8px;
+
+}
+
+.lang-switch button{
+
+    
+    font-size:12px;
+
+}
+
+.lang-switch .btn:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+    color: black;
+}
+
+/* Glass Navbar */
+
+.glass-nav{
+
+    background:rgba(0,0,0,0.5);
+
+    backdrop-filter:blur(10px);
+
+}
+
+/* Navbar links */
+
+.nav-link{
+
+    margin:0 10px;
+
+    font-weight:500;
+
+    transition:0.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#0dcaf0;
+
+}
+
+#LOGOAI{
+    width: 200px;
+}
